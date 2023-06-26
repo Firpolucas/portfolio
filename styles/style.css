@@ -157,13 +157,10 @@ body{
     }
 
     body{
-        /* height: 100vh; DEIXA O BODY 100% DA PAGINA*/
-        box-sizing: border-box;/*
+        height: 100vh; DEIXA O BODY 100% DA PAGINA
+        /*
         background-color: var(--cor-primaria);
         color: var(--cor-secundaria);*/
-        background-image: url('../assets/predio-nelogica.jpg');
-        background-size: 100%;
-        min-height: 460px;
-        padding: 20% 0 0 0;
+
     }
 }
