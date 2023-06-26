@@ -167,7 +167,7 @@ body{
         display: flex;
         justify-content: center;
         gap: 16px;
-        width: 50%; /*largura*/
+        width: 70%; /*largura*/
         text-align: center; /*alinhamento do texto*/
         border: 2px solid var(--cor-terciaria);
         /* border-color: ; */
