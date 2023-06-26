@@ -20,27 +20,33 @@
 /**/
 body{
     /* height: 100vh; DEIXA O BODY 100% DA PAGINA*/
-    box-sizing: border-box;
+    box-sizing: border-box;/*
     background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
+    color: var(--cor-secundaria);*/
+    background-image: url('../assets/predio-nelogica.jpg');
+	background-size: 100%;
+	min-height: 460px;
+	padding:80px 0 0 0;
 }
 
 .cabecalho{
-    padding: 2% 0% 0% 15%;
+    padding: 0% 0% 0% 15%;
 
 }
 
 .cabecalho__menu{
     display: flex;
     gap: 80px;
+    
 }
 
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
-    color:var(--cor-terciaria);
+    color:var(--cor-secundaria);
     text-decoration: none;
+    padding: 10px;
 
 }
 .apresentacao{
@@ -49,10 +55,11 @@ body{
     gap: 82px;
     justify-content: space-between;
     margin: 10% 15%;
+
 }
 
 .titulo-destaque{
-    color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
 }
 
 .apresentacao__conteudo{
@@ -60,10 +67,16 @@ body{
     display: flex;
     flex-direction: column;
     gap: 40px;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+    padding: 21.5px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--cor-secundaria);
 }
 .apresentacao__conteudo__titulo{
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto{
@@ -111,12 +124,12 @@ body{
 }
 
 .apresentacao__imagem{
-    width: 50%;
+    width: 40%;
 }
 
 .rodape{
     padding: 24px;
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
