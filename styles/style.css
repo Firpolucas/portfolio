@@ -156,4 +156,9 @@ body{
         width: auto;/*configura a largura de acordo com o elemento pai*/
     }
 
+    body{
+        /* height: 100vh; DEIXA O BODY 100% DA PAGINA*/
+        box-sizing: border-box;
+        background-color: var(--cor-primaria);
+        color: var(--cor-secundaria);
 }
