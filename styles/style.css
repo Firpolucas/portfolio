@@ -14,7 +14,7 @@
 }
 
 *{
-    margin 0;
+    margin: 0;
     padding: 0;
 }
 /**/
@@ -139,6 +139,13 @@ body{
 
 @media (max-width: 1200px){/*condicao para verificar se a tela é menor que 1200px*/
     
+    body{
+        /* height: 100vh; DEIXA O BODY 100% DA PAGINA*/
+        box-sizing: border-box;
+        background-color: var(--cor-primaria);
+        color: var(--cor-secundaria);
+    }
+
     .cabecalho{
         padding: 10%;   
     }
@@ -156,10 +163,4 @@ body{
         width: auto;/*configura a largura de acordo com o elemento pai*/
     }
 
-    body{
-        /* height: 100vh; DEIXA O BODY 100% DA PAGINA*/
-        box-sizing: border-box;
-        background-color: var(--cor-primaria);
-        color: var(--cor-secundaria);
-    }
 }
